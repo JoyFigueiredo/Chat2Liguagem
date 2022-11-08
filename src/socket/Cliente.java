@@ -1,7 +1,6 @@
 package socket;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Container;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -14,7 +13,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.io.Writer;
 import java.net.Socket;
 import java.rmi.RemoteException;
@@ -30,7 +28,6 @@ public class Cliente extends JFrame implements ActionListener, KeyListener {
     private String address = "10.252.0.39";
 
     private JTextField txtMsg;
-    private JLabel lblHistorico, lblMsg;
     private Font arial = new Font("Arial", Font.PLAIN, 12);
     private Border blankBorder = BorderFactory.createEmptyBorder(10, 10, 20, 10);// top,r,b,l
     private JPanel textPanel, inputPanel;
