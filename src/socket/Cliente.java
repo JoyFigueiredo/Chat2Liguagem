@@ -45,6 +45,7 @@ public class Cliente extends JFrame implements ActionListener, KeyListener {
     private Writer ouw;
     private BufferedWriter bfw;
 
+    //Construtor do Cliente
     public Cliente() {
 
         frame = new JFrame("Cliente");
@@ -70,6 +71,7 @@ public class Cliente extends JFrame implements ActionListener, KeyListener {
 
     }
 
+    //Inicio do painel de historico das mensagens
     public JPanel getTextPanel() {
         String welcome = "Ola, bem vindo ao chat, Qual seu nome? \n";
         textoArea = new JTextArea(welcome, 14, 14);
